@@ -2,7 +2,7 @@
 """
 Created on Mon Apr  3 11:35:10 2023
 
-@author: Pavi
+@author: Vijayalakshmi
 """
 
 from keras.models import Model
@@ -22,7 +22,6 @@ from pathlib import Path
 import glob
 import cv2
 from tensorflow.keras.applications.resnet50 import preprocess_input, decode_predictions
-#from sklearn.cluster import KMeans
 from keras.utils import to_categorical
 import faiss
 from sklearn.preprocessing import LabelEncoder
